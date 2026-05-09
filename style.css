@@ -27,7 +27,7 @@ body{
 }
 
 body{
-    background-image: url(res2.jpg);
+    background-image: url(/res2.jpg);
     background-size: cover;
    
     
