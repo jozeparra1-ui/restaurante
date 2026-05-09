@@ -26,13 +26,13 @@ body{
     padding: 16px;
 }
 
-/*body{
-    background-image: url(res2.jpg);
+body{
+    background-image: url(/res2.jpg);
     background-size: cover;
    
     
 
-}*/
+}
 
 
 .container{
