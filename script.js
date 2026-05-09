@@ -41,7 +41,7 @@ function renderMesas(){
             .sort((a,b) => new Date(a.datetime) - new Date(b.datetime))[0];
 
         card.innerHTML = `
-            <img src="mesas.JPEG" alt="Mesa ${i}">
+            <img src="mesas.jpeg" alt="Mesa ${i}">
             <div class="tableName">Mesa ${i}</div>
             <div class="tableDesc">${proxima ? 'Reservada: ' + formatearFechaHora(proxima.datetime) : 'Libre'}</div>
             <button class="btn table-btn" data-table="${i}">${proxima ? 'Liberar' : 'Reservar'}</button>
