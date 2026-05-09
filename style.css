@@ -1,10 +1,10 @@
 CSS
 
-/*.imagen{
+.imagen{
     background-image: url(/res2.jpg);
-    background-size: cover;
+    
 
-}*/
+}
 :root{
     --bg:#3761ca;
     --card:#faf5f5;
@@ -26,13 +26,13 @@ body{
     padding: 16px;
 }
 
-body{
+/*body{
     background-image: url(res2.jpg);
     background-size: cover;
    
     
 
-}
+}*/
 
 
 .container{
